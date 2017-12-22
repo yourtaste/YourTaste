@@ -1,0 +1,24 @@
+<Context> 
+
+	
+  	<Resource 
+		name="jdbc/mysql" 
+		auth="Container" 
+		type="javax.sql.DataSource"
+
+  		driverClassName="org.gjt.mm.mysql.Driver"
+
+  		url="jdbc:mysql://localhost:3306/"
+
+  		username="root" 
+		password="yourtaste2017" 
+
+  		maxActive="100" 
+		maxIdle="30" 
+		maxWait="10000"
+
+  		removeAbandoned="true" 
+		removeAbandonedTimeout="60"/> 
+
+  	
+</Context>

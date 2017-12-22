@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFAB40</color>
+    <color name="colorPrimaryDark">#aaaaaa</color>
+    <color name="colorAccent">#FF0000</color>
+
+    <color name="grey">#bfbfbf</color>
+    <color name="white">#fff</color>
+    <color name="black">#000000</color>
+    <color name="link_blue">#4d94ff</color>
+    <color name="darkRed">#cc0000</color>
+    <color name="text_like_counter">#aaaaaa</color>
+
+</resources>

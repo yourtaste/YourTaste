@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="#FFAB40"
+    tools:context="com.yourtaste.Login.MainActivity">
+
+    <TextView
+        android:id="@+id/appname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="너의\n입맛은"
+        android:textColor="#FFFFFF"
+        android:textSize="60dp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="70dp" />
+
+    <Button
+        android:id="@+id/id_login_button"
+        android:layout_width="320dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:background="#faf4d0"
+        android:text="이메일로 로그인"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/appname"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="80dp"
+        app:layout_constraintHorizontal_bias="0.494" />
+
+    <Button
+        android:id="@+id/facebook_login_button"
+        android:layout_width="320dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:background="#0054FF"
+        android:text="페이스북으로 로그인"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/id_login_button"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:id="@+id/kakao_login_button"
+        android:layout_width="320dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:background="#FFE400"
+        android:text="카카오로 로그인"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/facebook_login_button"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:id="@+id/naver_login_button"
+        android:layout_width="320dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:background="#0BC904"
+        android:text="네이버로 로그인"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/kakao_login_button"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="20dp" />
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="3"
+        android:rowCount="1"
+        app:layout_constraintTop_toBottomOf="@+id/naver_login_button"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="40dp"
+        >
+
+        <Button
+            android:id="@+id/find_id_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="0"
+            android:background="#00ff0000"
+            android:text="아이디찾기  |"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/find_fw_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:layout_gravity="center"
+            android:background="#00ff0000"
+            android:text="  비밀번호찾기  "
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Button"
+            android:textColor="#ffffff"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/register_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:layout_row="0"
+            android:background="#00ff0000"
+            android:text="|  회원가입"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Button"
+            android:textColor="#ffffff"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+    </GridLayout>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "101019170505",
+    "firebase_url": "https://yourtaste-f8b61.firebaseio.com",
+    "project_id": "yourtaste-f8b61",
+    "storage_bucket": "yourtaste-f8b61.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:101019170505:android:25e518412d39a77c",
+        "android_client_info": {
+          "package_name": "com.yourtaste"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "101019170505-svk7u1jf39u3nnkeb30ildhbtegea5qd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCK-jZCtBbDAfTicDCVPzoX0bfX0yZQPpI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

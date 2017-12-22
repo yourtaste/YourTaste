@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp" >
+
+    <ImageView
+        android:id="@+id/user_icon"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:contentDescription="@string/notify" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/user_icon"
+        android:orientation="vertical" >
+
+
+        <TextView
+            android:id="@+id/user_name"
+            style="@style/TextAppearance.AppCompat"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/user_phone_number"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/btn_send"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/ic_heart"
+        android:contentDescription="@string/notify" />
+</RelativeLayout>
